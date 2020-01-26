@@ -6,10 +6,10 @@
 import srtm
 from pyproj import Geod
 
-llcrnrlon = 27 # lower left corner longitude, decimal degrees
-llcrnrlat = 45 # lower left corner latitude, decimal degrees
-urcrnrlon = 30 # upper right corner longitude, decimal degrees
-urcrnrlat = 48 # upper right corner latitude, decimal degrees
+llcrnrlon = 27.0 # lower left corner longitude, decimal degrees
+llcrnrlat = 45.0 # lower left corner latitude, decimal degrees
+urcrnrlon = 30.0 # upper right corner longitude, decimal degrees
+urcrnrlat = 48.0 # upper right corner latitude, decimal degrees
 pixel = 100 # size of the pixels, meters
 
 g = Geod(ellps='WGS84') # Use Clarke WGS84 ellipsoid
